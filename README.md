@@ -29,7 +29,7 @@ Microcontroller: STM32F103C8T6 (Blue Pill)
 
 Sensor: LM35 Temperature Sensor
 
-Actuator: DC Fan (controlled through a transistor or MOSFET)
+Actuator: DC Fan Motor (controlled through a transistor or MOSFET)
 
 Software Tools:
 
@@ -37,7 +37,7 @@ STM32CubeIDE (Firmware development)
 
 Proteus 8 (Circuit simulation)
 
-Altium Designer / EasyEDA (PCB design)
+Altium Designer (PCB design)
 
 🧰 System Operation
 
@@ -67,11 +67,10 @@ Final PCB design ready for fabrication.
 
 Firmware/ – Contains all embedded C source files.
 
-Proteus_Simulation/ – Includes the Proteus project for circuit simulation.
+Proteus_Simulation
 
-PCB_Design/ – Contains the schematic and PCB layout.
+Full schematic and PCB design.
 
-Images/ – Simulation screenshots, PCB visuals, and system block diagrams.
 
 🔮 Future Improvements
 
@@ -83,6 +82,4 @@ Implement PID-based fan speed control for smoother operation.
 
 Add buzzer and overheat alert feature.
 
-Implement PID-based fan speed control for smoother operation.
 
-Add buzzer and overheat alert feature.
